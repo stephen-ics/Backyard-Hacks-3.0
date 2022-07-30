@@ -1,26 +1,19 @@
 import React from 'react'
+import Plants from '../components/Plants'
+import Grass from '../images/grass.png'
 
 
 const Dashboard = () => {
   return (
     <div>
+      <Plants title='Rose' date='started on XXXX' image={Grass} />
+      <Plants title='Eculyptus' date='started on XXXX' image={Grass} />
+      <Plants title='Grass' date='started on XXXX' image={Grass} />
+      <Plants title='Tree' date='started on XXXX' image={Grass} />
 
     </div>
   )
 }
 
-const Plants = () => {
-  return (
-    {
-      id: 1,
-      img: 'https://www.starrosesandplants.com/plants/elle/',
-      name: 'Rose',
-    },
-    {
-      id: 2,
-      img: 'https://www.torontoflowergallery.com/products/eucalyptus',
-      name: 'Eculyptus',
-    }
-  )
-}
+
 export default Dashboard
