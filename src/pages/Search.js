@@ -10,7 +10,7 @@ const Search = () => {
       <PlantSection title='title' image={Grass}/>
       <PlantSection title='title' image={Grass}/>
       <PlantSection title='title' image={Grass}/>
-      <PlantSection title='title' image={Grass}/>
+      <PlantSection title='tile' image={Grass}/>
     </div>
   )
 }
