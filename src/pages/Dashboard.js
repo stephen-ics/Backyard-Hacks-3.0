@@ -1,15 +1,27 @@
 import React from 'react'
-import Plants from '../components/Plants'
+import DashboardSection from '../components/DashboardSection'
 import Grass from '../images/grass.png'
 
 
 const Dashboard = () => {
   return (
-    <div>
-      <Plants title='Rose' date='started on XXXX' image={Grass} />
-      <Plants title='Eculyptus' date='started on XXXX' image={Grass} />
-      <Plants title='Grass' date='started on XXXX' image={Grass} />
-      <Plants title='Tree' date='started on XXXX' image={Grass} />
+    <div className='grid grid-cols-4 gap-2 justify-start '>
+      <DashboardSection title='Black Rose' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Eculyptus' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Aloe Vera' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Birch Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
 
     </div>
   )

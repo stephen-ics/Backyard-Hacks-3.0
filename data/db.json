@@ -1,0 +1,32 @@
+{
+    "PlantSection": [
+        {
+            "title": "Rose",
+            "subtitle": "Subtitle",
+            "funFact": "Fun Fact",
+            "image": "Image",
+            "id": "Rose"
+        },
+        {
+            "title": "Twolips",
+            "subtitle": "Subtitle",
+            "funFact": "Fun Fact",
+            "image": "Image",
+            "id": "Rose"
+        },
+        {
+            "title": "Pumpkin",
+            "subtitle": "Subtitle",
+            "funFact": "Fun Fact",
+            "image": "Image",
+            "id": "Rose"
+        },
+        {
+            "title": "Blueberries",
+            "subtitle": "Subtitle",
+            "funFact": "Fun Fact",
+            "image": "Image",
+            "id": "Rose"
+        }
+    ]
+}

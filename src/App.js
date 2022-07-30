@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Search from './pages/Search'
 import Dashboard from './pages/Dashboard'
 import Completed from './pages/Completed'
+import SearchProfile from './pages/SearchProfile'
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
         <Routes>
           <Route path='/' exact element={<Home/>}></Route>
           <Route path='/search' exact element={<Search />}></Route>
-          <Route path='/dashboard' exact element={<Dashboard />}></Route>
-          <Route path='/completed' exact element = {<Completed/>}></Route>
+          <Route path='/search/:id' exact element={<SearchProfile />}></Route>
+          <Route path='/dashboard' element={<Dashboard />}></Route>
+          <Route path='/completed' exact element={<Completed/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
