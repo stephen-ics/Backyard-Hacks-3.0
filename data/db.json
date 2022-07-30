@@ -4,29 +4,29 @@
             "title": "Rose",
             "subtitle": "Subtitle",
             "funFact": "Fun Fact",
-            "image": "Image",
-            "id": "Rose"
+            "image": "/plant.png",
+            "id": "rose"
         },
         {
-            "title": "Twolips",
+            "title": "Tulips",
             "subtitle": "Subtitle",
             "funFact": "Fun Fact",
             "image": "Image",
-            "id": "Rose"
+            "id": "tulips"
         },
         {
             "title": "Pumpkin",
             "subtitle": "Subtitle",
             "funFact": "Fun Fact",
             "image": "Image",
-            "id": "Rose"
+            "id": "pumpkin"
         },
         {
             "title": "Blueberries",
             "subtitle": "Subtitle",
             "funFact": "Fun Fact",
             "image": "Image",
-            "id": "Rose"
+            "id": "blueberries"
         }
     ]
 }
