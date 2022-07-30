@@ -1,15 +1,17 @@
 {
     "Plants": [
         {
-            "plant": "",
-            ""
-
+            "id": "1",
+            "plant": "Black Rose"
+        
         },
         {
-
+            "id": "2",
+            "plant": "Eculyptus"
         },
         {
-
+            "id": "3",
+            "plant": "Aloe Vera"
         }
     ]
 }
