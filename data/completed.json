@@ -1,22 +1,15 @@
 {
   "CompletedSection": [
     {
-      "title": "Rose",
-      "image": "/_Rose.png",
+      "title": "Pumpkin",
+      "subtitle": "A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration.",
+      "funFact": "Over 1.5 billion pounds of pumpkin are produced each year in the United States.",
+      "image": "_Pumpkin.png",
+      "season": "Spring",
+      "temperature": "18°C - 35°C",
+      "months": "3 - 4 months",
       "date": "2022-07-30",
-      "id": 1
-    },
-    {
-      "title": "Tulips",
-      "image": "/_Tulip.png",
-      "date": "2022-07-30",
-      "id": "9U2XLnD"
-    },
-    {
-      "title": "Rose",
-      "image": "/_Rose.png",
-      "date": "2022-07-30",
-      "id": "rose"
+      "id": "pumpkin"
     }
   ]
 }

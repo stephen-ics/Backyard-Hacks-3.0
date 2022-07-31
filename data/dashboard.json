@@ -12,6 +12,16 @@
       "id": "rose"
     },
     {
+      "title": "Pumpkin",
+      "subtitle": "A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration.",
+      "image": "_Pumpkin.png",
+      "season": "Spring",
+      "temperature": "18°C - 35°C",
+      "months": "3 - 4 months",
+      "date": "2022-07-30",
+      "id": "h5ARcYs"
+    },
+    {
       "title": "Tulips",
       "subtitle": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
       "image": "/_Tulip.png",
@@ -19,7 +29,17 @@
       "temperature": "0°C - 12°C",
       "months": "1 month",
       "date": "2022-07-30",
-      "id": "9U2XLnD"
+      "id": "QFCjEfi"
+    },
+    {
+      "title": "Tomatoes",
+      "subtitle": "The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as the tomato plant. The species originated in western South America, Mexico, and Central America.",
+      "image": "_Tomato.png",
+      "season": "Spring",
+      "temperature": "20°C - 30°C",
+      "months": "2 - 4 months",
+      "date": "2022-07-30",
+      "id": "oYSi9RM"
     }
   ]
 }

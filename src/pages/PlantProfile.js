@@ -1,11 +1,8 @@
 import React from 'react'
-import Grass from '../images/grass.png'
-import RoseSection from '../components/RoseSection'
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import Timeline from '../components/Timeline'
-import SearchProfile from './SearchProfile'
 
 const PlantProfile = () => {
   const { id } = useParams();
@@ -13,11 +10,16 @@ const PlantProfile = () => {
 
   const handleSubmit = (e) => {
     const title = plantData.title
+    const subtitle = plantData.subtitle
+    const funFact = plantData.funFact
+    const season = plantData.season
+    const temperature = plantData.temperature
+    const months = plantData.month
     const image = plantData.image
     const date = plantData.date
     const id = plantData.id
 
-    const plant  = { title, image, date, id };
+    const plant  = { title, subtitle, funFact, season, temperature, months, image, date, id };
     fetch('http://localhost:3002/CompletedSection', {
       method: 'POST', 
       headers: { 'Content-Type': 'application/json' },

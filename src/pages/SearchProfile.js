@@ -21,14 +21,16 @@ const SearchProfile = () => {
   const handleSubmit = (e) => {
     const title = plantData.title
     const subtitle = plantData.subtitle
+    const funFact = plantData.funFact
     const image = plantData.image
     const season = plantData.season
     const temperature = plantData.temperature
     const months = plantData.months
+    const id = plantData.id
     const date = plantData.date
 
     e.preventDefault();
-    const plant  = { title, subtitle, image, season, temperature, months, date };
+    const plant  = { title, funFact, subtitle, image, season, temperature, months, date, id };
     fetch('http://localhost:3001/DashboardSection', {
       method: 'POST', 
       headers: { 'Content-Type': 'application/json' },
@@ -46,8 +48,8 @@ const SearchProfile = () => {
               <img src={plantData.image} className='rounded-full w-48 h-48 ml-20'/>
               <div className='flex flex-col bg-lime-800/[0.6] w-1/3 px-4 pt-8 mx-16 rounded-2xl h-72 items-start text-start'> 
                 <h1 className='text-white text-5xl'>{plantData.title}</h1>  
-                <h2 className='text-white text-xl'>{plantData.subtitle}</h2>
-                <p className='text-white text-xl mt-6'>Fun Fact: {plantData.funFact}</p>
+                <h2 className='text-white text-lg'>{plantData.subtitle}</h2>
+                <p className='text-white text-lg mt-6'>Fun Fact: {plantData.funFact}</p>
               </div>
               <div className='flex flex-col bg-lime-800/[0.6] px-4 pt-8 pb-16 rounded-2xl h-72 justify-around'>
                 <h1 className='text-white text-xl'>{plantData.season}</h1>
