@@ -2,31 +2,53 @@
     "PlantSection": [
         {
             "title": "Rose",
-            "subtitle": "Subtitle",
-            "funFact": "Fun Fact",
+            "subtitle": "A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.",
+            "funFact": "Roses Are One of the Oldest Flowers. It's no wonder that roses have been referenced in literature and music for centuries.",
             "image": "/plant.png",
+            "season": "Year-round",
+            "temperature": "15°C - 21°C",
+            "months": "18 months",
             "id": "rose"
         },
         {
             "title": "Tulips",
-            "subtitle": "Subtitle",
-            "funFact": "Fun Fact",
-            "image": "Image",
+            "subtitle": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
+            "funFact": "Holland is still the largest producer of tulips",
+            "image": "/plant.png",
+            "season": "Spring",
+            "temperature": "0°C - 12°C",
+            "months": "1 month",
             "id": "tulips"
         },
         {
             "title": "Pumpkin",
-            "subtitle": "Subtitle",
-            "funFact": "Fun Fact",
+            "subtitle": "A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration.",
+            "funFact": "Over 1.5 billion pounds of pumpkin are produced each year in the United States.",
             "image": "Image",
+            "season": "Spring",
+            "temperature": "18°C - 35°C",
+            "months": "3 - 4 months",
             "id": "pumpkin"
         },
         {
-            "title": "Blueberries",
-            "subtitle": "Subtitle",
-            "funFact": "Fun Fact",
+            "title": "Tomatoes",
+            "subtitle": "The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as the tomato plant. The species originated in western South America, Mexico, and Central America.",
+            "funFact": "There Are Over 10 Thousand Varieties Of Tomato.",
             "image": "Image",
-            "id": "blueberries"
+            "season": "Spring",
+            "temperature": "20°C - 30°C",
+            "months": "2 - 4 months",
+            "id": "tomatoes"
+        },
+        {
+            "title": "Potatoes",
+            "subtitle": "The potato is a starchy tuber of the plant Solanum tuberosum and is a root vegetable native to the Americas.",
+            "funFact": "The potato is about 80% water and 20% solids.",
+            "image": "Image",
+            "season": "Spring",
+            "temperature": "16°C - 19°C",
+            "months": "3 - 4 months",
+            "id": "potatoes"
         }
     ]
 }

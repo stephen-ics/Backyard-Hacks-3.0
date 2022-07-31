@@ -12,7 +12,7 @@ const PlantSection = ({ plants }) => {
                 whileTap={{scale:0.95}}>
                     <div className=''>
                         <Link to={`/search/${plant.id}`}>
-                            <div className='w-full bg-lime-600/[.6] rounded-xl flex items-center p-8 justify-between'>
+                            <div className='shadow-2xl w-full bg-lime-600/[.6] rounded-xl flex items-center p-8 justify-between'>
                                 <img src={plant.image} className='rounded-full w-32 h-32'/>
                                 <h1 className='text-white text-7xl ml-full w-full'>{plant.title}</h1>
                             </div>

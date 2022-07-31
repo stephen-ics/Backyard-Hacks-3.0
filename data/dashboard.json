@@ -1,17 +1,37 @@
 {
-    "Plants": [
-        {
-            "id": "1",
-            "plant": "Black Rose"
-        
-        },
-        {
-            "id": "2",
-            "plant": "Eculyptus"
-        },
-        {
-            "id": "3",
-            "plant": "Aloe Vera"
-        }
-    ]
+  "DashboardSection": [
+      {
+          "title": "Rose",
+          "subtitle": "A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.",
+          "funFact": "Fun Fact",
+          "image": "/plant.png",
+          "season": "Year-round",
+          "temperature": "15°C - 21°C",
+          "months": "18 months",
+          "date": "2022-07-30",
+          "id": "rose"
+      },
+      {
+          "title": "Tulips",
+          "subtitle": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
+          "funFact": "Holland is still the largest producer of tulips ",
+          "image": "/plant.png",
+          "season": "Spring",
+          "temperature": "0°C - 12°C",
+          "months": "1 month",
+          "date": "2022-07-30",
+          "id": "tulips"
+      },
+      {
+        "title": "Tulips",
+        "subtitle": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
+        "funFact": "Holland is still the largest producer of tulips ",
+        "image": "/plant.png",
+        "season": "Spring",
+        "temperature": "0°C - 12°C",
+        "months": "1 month",
+        "date": "2022-07-30",
+        "id": "tulips"
+    }
+  ]
 }

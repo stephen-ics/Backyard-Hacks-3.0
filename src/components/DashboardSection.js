@@ -2,17 +2,28 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Link, useParams } from 'react-router-dom'
 
-const DashboardSection = ({ title, image, date, id }) => {
+const DashboardSection = ({ plants }) => {
     return (
-        <motion.div className='bg-green-600 rounded-xl w-1/5 m-16 flex items-center shadow-3xl'
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}>
-            <a href={`/search/${id}`} className='flex items-center flex-wrap'>
-                <img src={image} className='p-0 rounded-tr-xl rounded-tl-xl w-full' />
-                <h1 className='mt-5 ml-5 p-16 ml-8px text-white text-4xl'>{title}</h1>
-                <p className='m-3 text-white text-med'>{date} </p>
-            </a>
-        </motion.div>
+        <div className='rounded-xl w-96 m-4 mt-20 flex justify-center'
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}>
+
+                {plants.map(plant => (
+                    <motion.div
+                    whileHover={{scale:1.05}}
+                    whileTap={{scale:0.95}}>
+
+                        <div className='bg-green-600 mb-20 shadow-2xl rounded-xl w-96 mx-32'>
+                            <Link to={`/dashboard/${plant.id}`}>   
+                                <img src={plant.image} className='rounded-tr-xl rounded-tl-xl w-96'/>
+                                <h1 className='text-white text-3xl pb-20 mt-6'>{plant.title}</h1>
+                                <p className='text-white pb-10'>{plant.date} </p>
+                            </Link>
+                        </div>
+                    </motion.div>
+                ))}
+
+        </div>
     )
 }
 

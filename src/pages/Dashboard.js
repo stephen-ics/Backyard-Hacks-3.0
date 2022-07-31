@@ -1,32 +1,31 @@
 import React from 'react'
 import DashboardSection from '../components/DashboardSection'
 import Grass from '../images/grass.png'
+import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
 
 const Dashboard = () => {
+  const [plantData, setPlantData] = useState(null);
+
+  useEffect(() => {
+    fetch('http://localhost:3001/DashboardSection')
+        .then(res => {
+          return res.json();
+        })
+        .then(data => {
+          setPlantData(data);
+        });
+    }, []);
+
   return (
 
-    <div className='gap-2 flex flex-col justify-start w-full'>
+    <div className='flex flex-col justify-center w-full'>
       <div >
-        <h1 className='text-4xl text-white bg-green-700/[.5] rounded-md ml-96 mr-96 mt-8 px-2.5 py-2.5 dark:focus:ring-gray-700 dark:border-gray-700 nav-list'>DASHBOARD</h1>
+        <h1 className='text-4xl text-white bg-green-700/[.5] rounded-md ml-96 mr-96 mt-8 py-20 dark:focus:ring-gray-700 dark:border-gray-700'>DASHBOARD</h1>
       </div>
-      <div className='flex flex-wrap items-center w-full justify-center'>
-        <DashboardSection title='Black Rose' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Eculyptus' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Aloe Vera' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Birch Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
-        <DashboardSection title='Tree' date='started on XXXX' image={Grass} />
+      <div className='flex flex-wrap justify-center'>
+          {plantData && <DashboardSection plants={plantData} />}
       </div>
     </div>
   )
