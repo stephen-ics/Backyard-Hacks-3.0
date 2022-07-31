@@ -4,7 +4,7 @@ import RoseSection from '../components/RoseSection'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { motion } from 'framer-motion'
-
+import Timeline from '../components/Timeline'
 import SearchProfile from './SearchProfile'
 
 const PlantProfile = () => {
@@ -21,8 +21,6 @@ const PlantProfile = () => {
           setPlantData(data);
         });
     }, []);
-
-    console.log(plantData)
 
   return (
   
@@ -52,8 +50,8 @@ const PlantProfile = () => {
 
 
     <div>
-      <h1>LOL</h1>
-    </div>
+      <Timeline id={id}/>
+    </div> 
   </div>
   
   )

@@ -14,7 +14,7 @@ const PageSection = ({
                 (reversed ? "md:flex-row-reverse" : "md:flex-row"),
         )}
         >
-            <div className="absolute rounded-lg" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
+            <div className="rounded-lg" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
                 <h1 className="text-4xl font-bold">{title}</h1>
                 <h3 className="text-xl font-bold text-zinc-700">
                     {subheading}

@@ -1,16 +1,6 @@
 {
     "PlantSection": [
         {
-            "title": "Rose",
-            "subtitle": "A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.",
-            "funFact": "Roses Are One of the Oldest Flowers. It's no wonder that roses have been referenced in literature and music for centuries.",
-            "image": "/plant.png",
-            "season": "Year-round",
-            "temperature": "15°C - 21°C",
-            "months": "18 months",
-            "id": "rose"
-        },
-        {
             "title": "Tulips",
             "subtitle": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
             "funFact": "Holland is still the largest producer of tulips",
@@ -19,6 +9,16 @@
             "temperature": "0°C - 12°C",
             "months": "1 month",
             "id": "tulips"
+        },
+        {
+            "title": "Rose",
+            "subtitle": "A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.",
+            "funFact": "Roses Are One of the Oldest Flowers. It's no wonder that roses have been referenced in literature and music for centuries.",
+            "image": "/plant.png",
+            "season": "Year-round",
+            "temperature": "15°C - 21°C",
+            "months": "18 months",
+            "id": "rose"
         },
         {
             "title": "Pumpkin",

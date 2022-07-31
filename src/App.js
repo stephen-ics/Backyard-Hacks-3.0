@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard'
 import Completed from './pages/Completed'
 import PlantProfile from './pages/PlantProfile'
 import SearchProfile from './pages/SearchProfile'
+import PlantDay from './pages/PlantDay'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/search/:id' exact element={<SearchProfile />}></Route>
           <Route path='/dashboard' exact element={<Dashboard />}></Route>
           <Route path='/dashboard/:id' exact element = {<PlantProfile/>}></Route>
+          <Route path='/dashboard/:id/:id' exact element = {<PlantDay />}></Route>
           <Route path='/completed' exact element={<Completed/>}></Route>
         </Routes>
       </BrowserRouter>
