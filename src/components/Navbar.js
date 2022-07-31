@@ -18,7 +18,7 @@ function Navbar(props) {
                 <Link to='/dashboard'>Dashboard</Link>
             </li>
             <li className='text-white bg-green-700/[.5] rounded-md text-sm px-5 py-2.5 dark:focus:ring-gray-700 dark:border-gray-700 nav-list mr-3 dark:md:hover:bg-green-700 transition duration-500 ease-in-out'>
-              <Link to='/completed'>Completed</Link>
+              <Link to='/completedPlants'>Completed</Link>
             </li>
           </div>
         </ul>

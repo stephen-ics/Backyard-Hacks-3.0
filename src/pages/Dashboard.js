@@ -36,7 +36,7 @@ const Dashboard = () => {
     >
     <div className='flex flex-col justify-center w-full'>
       <div >
-        <h1 className='text-4xl text-white bg-green-700/[.5] rounded-md ml-96 mr-96 mt-8 py-20 dark:focus:ring-gray-700 dark:border-gray-700'>DASHBOARD</h1>
+        <h1 className='text-4xl text-white bg-green-700/[.5] rounded-md ml-96 mr-96 mt-8 py-20 dark:focus:ring-gray-700 dark:border-gray-700'>Dashboard</h1>
       </div>
       <div className='flex flex-wrap justify-center'>
           {plantData && <DashboardSection plants={plantData} />}

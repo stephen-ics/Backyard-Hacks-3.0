@@ -11,6 +11,19 @@ const PlantProfile = () => {
   const { id } = useParams();
   const [plantData, setPlantData] = useState(null);
 
+  const handleSubmit = (e) => {
+    const title = plantData.title
+    const image = plantData.image
+    const date = plantData.date
+    const id = plantData.id
+
+    const plant  = { title, image, date, id };
+    fetch('http://localhost:3002/CompletedSection', {
+      method: 'POST', 
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(plant)
+    })
+  }
   
   useEffect(() => {
     fetch('http://localhost:3001/DashboardSection/' + id)
@@ -56,6 +69,7 @@ const PlantProfile = () => {
       <motion.button 
       whileHover={{scale:1.05}}
       whileTap={{scale:0.95}}
+      onClick={handleSubmit}
       className='mb-20 p-10 text-white text-5xl bg-lime-600/[0.3] rounded-2xl mt-8 border-solid border-green-500 border-2'>Complete Planting!</motion.button>
     </Link>
   </div>

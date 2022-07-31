@@ -8,6 +8,7 @@ import Completed from './pages/Completed'
 import PlantProfile from './pages/PlantProfile'
 import SearchProfile from './pages/SearchProfile'
 import PlantDay from './pages/PlantDay'
+import CompletedPlants from './pages/CompletedPlants'
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
           <Route path='/dashboard' exact element={<Dashboard />}></Route>
           <Route path='/dashboard/:id' exact element = {<PlantProfile/>}></Route>
           <Route path='/dashboard/:id/:id2' exact element = {<PlantDay />}></Route>
-          <Route path='/completed' exact element={<Completed/>}></Route>
+          <Route path='/completedPlants' exact element={<CompletedPlants/>}></Route>
+          <Route path='/completed' exactt element={<Completed />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
