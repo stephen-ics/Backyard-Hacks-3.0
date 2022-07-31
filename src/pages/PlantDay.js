@@ -54,8 +54,7 @@ const PlantDay = () => {
                 <motion.button 
                 whileHover={{scale:1.05}}
                 whileTap={{scale:0.95}}
-                className='p-10 bg-lime-800/[0.5] rounded-xl px-20 m-5 mb-16'
-                onClick={handleSubmit}>
+                className='p-10 bg-lime-800/[0.5] rounded-xl px-20 m-5 mb-16'>
                     Submit
                 </motion.button>
             </Link>
