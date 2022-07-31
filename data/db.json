@@ -4,50 +4,55 @@
             "title": "Tulips",
             "subtitle": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
             "funFact": "Holland is still the largest producer of tulips",
-            "image": "/plant.png",
+            "image": "/_Tulip.png",
             "season": "Spring",
             "temperature": "0°C - 12°C",
             "months": "1 month",
+            "date": "2022-07-30",
             "id": "tulips"
         },
         {
             "title": "Rose",
             "subtitle": "A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.",
             "funFact": "Roses Are One of the Oldest Flowers. It's no wonder that roses have been referenced in literature and music for centuries.",
-            "image": "/plant.png",
+            "image": "/_Rose.png",
             "season": "Year-round",
             "temperature": "15°C - 21°C",
             "months": "18 months",
+            "date": "2022-07-30",
             "id": "rose"
         },
         {
             "title": "Pumpkin",
             "subtitle": "A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration.",
             "funFact": "Over 1.5 billion pounds of pumpkin are produced each year in the United States.",
-            "image": "Image",
+            "image": "_Pumpkin.png",
             "season": "Spring",
             "temperature": "18°C - 35°C",
             "months": "3 - 4 months",
+            "date": "2022-07-30",
             "id": "pumpkin"
         },
         {
             "title": "Tomatoes",
             "subtitle": "The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as the tomato plant. The species originated in western South America, Mexico, and Central America.",
             "funFact": "There Are Over 10 Thousand Varieties Of Tomato.",
-            "image": "Image",
+            "image": "_Tomato.png",
             "season": "Spring",
             "temperature": "20°C - 30°C",
             "months": "2 - 4 months",
+            "date": "2022-07-30",
             "id": "tomatoes"
         },
         {
             "title": "Potatoes",
             "subtitle": "The potato is a starchy tuber of the plant Solanum tuberosum and is a root vegetable native to the Americas.",
             "funFact": "The potato is about 80% water and 20% solids.",
-            "image": "Image",
+            "image": "_Potato.png",
             "season": "Spring",
             "temperature": "16°C - 19°C",
             "months": "3 - 4 months",
+            "date": "2022-07-30",
             "id": "potatoes"
         }
     ]

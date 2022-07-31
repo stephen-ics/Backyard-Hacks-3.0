@@ -14,13 +14,15 @@ const PageSection = ({
                 (reversed ? "md:flex-row-reverse" : "md:flex-row"),
         )}
         >
-            <div className="rounded-lg" style={{backgroundColor: "rgba(0, 0, 0, 0.3)"}}>
-                <h1 className="text-4xl font-bold">{title}</h1>
-                <h3 className="text-xl font-bold text-zinc-700">
-                    {subheading}
-                </h3>
-        
-                <p className="text-zinc-900 text-md">{description}</p>
+            <div className="rounded-lg flex items-center" style={{backgroundColor: "rgba(0, 100, 0, 0.3)"}}>
+                {/* Text container within parent div */}
+                <div className="mx-3">
+                    <h1 className="text-4xl font-bold">{title}</h1>
+                    <h3 className="text-xl mt-6 font-bold text-zinc-700">
+                        {subheading}
+                    </h3>
+                    <p className="text-zinc-900 text-md">{description}</p>
+                </div>
             </div>
 
             <img

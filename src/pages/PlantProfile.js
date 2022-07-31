@@ -2,7 +2,7 @@ import React from 'react'
 import Grass from '../images/grass.png'
 import RoseSection from '../components/RoseSection'
 import { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import Timeline from '../components/Timeline'
 import SearchProfile from './SearchProfile'
@@ -52,6 +52,12 @@ const PlantProfile = () => {
     <div>
       <Timeline id={id}/>
     </div> 
+    <Link to='/completed'>
+      <motion.button 
+      whileHover={{scale:1.05}}
+      whileTap={{scale:0.95}}
+      className='mb-20 p-10 text-white text-5xl bg-lime-600/[0.3] rounded-2xl mt-8 border-solid border-green-500 border-2'>Complete Planting!</motion.button>
+    </Link>
   </div>
   
   )

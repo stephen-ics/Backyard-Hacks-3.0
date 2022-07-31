@@ -25,9 +25,10 @@ const SearchProfile = () => {
     const season = plantData.season
     const temperature = plantData.temperature
     const months = plantData.months
+    const date = plantData.date
 
     e.preventDefault();
-    const plant  = { title, subtitle, image, season, temperature, months };
+    const plant  = { title, subtitle, image, season, temperature, months, date };
     fetch('http://localhost:3001/DashboardSection', {
       method: 'POST', 
       headers: { 'Content-Type': 'application/json' },

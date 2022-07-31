@@ -3,8 +3,8 @@
     {
       "title": "Rose",
       "subtitle": "A rose is either a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.",
-      "funFact": "Fun Fact",
-      "image": "/plant.png",
+      "funFact": "Roses Are One of the Oldest Flowers. It's no wonder that roses have been referenced in literature and music for centuries.",
+      "image": "/_Rose.png",
       "season": "Year-round",
       "temperature": "15°C - 21°C",
       "months": "18 months",
@@ -14,29 +14,12 @@
     {
       "title": "Tulips",
       "subtitle": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-      "image": "/plant.png",
+      "image": "/_Tulip.png",
       "season": "Spring",
       "temperature": "0°C - 12°C",
       "months": "1 month",
-      "id": "5mxEdKQ"
-    },
-    {
-      "title": "Pumpkin",
-      "subtitle": "A pumpkin is a cultivar of winter squash that is round with smooth, slightly ribbed skin, and is most often deep yellow to orange in coloration.",
-      "image": "Image",
-      "season": "Spring",
-      "temperature": "18°C - 35°C",
-      "months": "3 - 4 months",
-      "id": "ylkfQ9t"
-    },
-    {
-      "title": "Tomatoes",
-      "subtitle": "The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as the tomato plant. The species originated in western South America, Mexico, and Central America.",
-      "image": "Image",
-      "season": "Spring",
-      "temperature": "20°C - 30°C",
-      "months": "2 - 4 months",
-      "id": "WvklGaU"
+      "date": "2022-07-30",
+      "id": "tulips"
     }
   ]
 }

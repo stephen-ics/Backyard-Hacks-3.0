@@ -20,7 +20,7 @@ function App() {
           <Route path='/search/:id' exact element={<SearchProfile />}></Route>
           <Route path='/dashboard' exact element={<Dashboard />}></Route>
           <Route path='/dashboard/:id' exact element = {<PlantProfile/>}></Route>
-          <Route path='/dashboard/:id/:id' exact element = {<PlantDay />}></Route>
+          <Route path='/dashboard/:id/:id2' exact element = {<PlantDay />}></Route>
           <Route path='/completed' exact element={<Completed/>}></Route>
         </Routes>
       </BrowserRouter>
