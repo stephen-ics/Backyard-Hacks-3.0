@@ -20,7 +20,7 @@ const Search = () => {
       <form className='w-3/4'>
         <input type='text' className='bg-white w-full pl-8 py-5 rounded-2xl' placeholder='Search for a Plant'></input>
       </form>
-      <div className='flex w-full flex-row w-3/4'>
+      <div className='flex flex-row w-3/4'>
         {plantData && <PlantSection plants={plantData} />}
       </div>
     </div>
