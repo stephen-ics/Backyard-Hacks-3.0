@@ -17,6 +17,23 @@ const SearchProfile = () => {
           setPlantData(data);
         });
     }, []);
+  
+  const handleSubmit = (e) => {
+    const title = plantData.title
+    const subtitle = plantData.subtitle
+    const image = plantData.image
+    const season = plantData.season
+    const temperature = plantData.temperature
+    const months = plantData.months
+
+    e.preventDefault();
+    const plant  = { title, subtitle, image, season, temperature, months };
+    fetch('http://localhost:3001/DashboardSection', {
+      method: 'POST', 
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(plant)
+    })
+  }
 
   return (
     <div className='flex justify-center'>
@@ -40,7 +57,8 @@ const SearchProfile = () => {
             <div className='w-full justify-around mt-10 text-white'>
               <motion.button className='w-1/2 py-6 px-8 bg-lime-800/[0.2] rounded-2xl border-green-800 border-solid border-2'
               whileHover={{scale:1.05}}
-              whileTap={{scale:0.95}}>Add to Dashboard
+              whileTap={{scale:0.95}}
+              onClick={handleSubmit}>Add to Dashboard
               </motion.button>
             </div>
           </div>
