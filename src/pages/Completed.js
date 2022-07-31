@@ -18,7 +18,7 @@ const Completed = () => {
           <button className=' overflow: visible text-xl mt-6'>
             Click here to see your timeline!
             {isExploding && <ConfettiExplosion/>}
-            </button>
+          </button>
         </div>
       </div>
     </div>
