@@ -1,71 +1,37 @@
-# Getting Started with Create React App
+## 💡 Inspiration
+Taking care of plants is like taking care of children- you need water, food, sunlight and love; without these, they die :(. Yet, despite being so fragile, plants are often forgotten on window sills or in the backyard, where people (especially coders) forget to visit. What if there was a platform that serves as a one-stop destination for all of your plant needs? We recognized from the get-go that there are several reasons why people neglect their plants:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Taking care of plants can be a pretty low priority. If you aren’t a plant fanatic, having to water the lawn that you never asked for can be the least of your concerns. If you don’t want to be known as that one person on the street with a yellow lawn, we’ve got your back!
 
-## Available Scripts
+There is a goal: seeing how your plant goes from seed to stalk can be very very rewarding, and what if you could see a montage of it growing up slowly? We made gardening fun, and we hope to be the reason that some of you get out of your house and give plants a chance!
 
-In the project directory, you can run:
+🔍What it does
+At its core, PlantUp is a platform that is meant to make gardening an exciting experience- and we have plenty of features that help realize this.
 
-### `npm start`
+Search Page: users are able to search up the plant that they intend on planting in our search catalogue. Once they find the match, the user has the option to add it to their dashboard.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dashboard: the dashboard is the collection of plants that a user is currently taking care of. Once having selected a plant from the dashboard, they are brought to the Plant Profile.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Plant Profile: This is where all the progress is saved! Users will be reminded daily to take care of their plants whether this is watering, or moving their plants into the sun! These reminders are sent via SMS messages using Twillio. Additionally, users are able to view the timeline for their plants, as well as upload images of the plant that they took. Once the timeline is up, users are automatically brought to the ‘Completed Page’.
 
-### `npm test`
+The completed page stores a collection of all plants the user has completed! This gives the users a sense of progress and satisfaction. The user can then go back and view the timeline to watch the journey of their plant subsequently seeing their plant grow up.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All the components of this platform are meant to make the experience of gardening more engaging and fun!
 
-### `npm run build`
+## ⚙️Tech Stack
+We designed the prototype on UI/UX Figma and built the front-end using primarily React.JS, tailwind CSS. We also added framer-motion to sprinkle in a little bit of animations. The data in the back end was stored in JSON databases, and we used HTTPS requests to change the JSON in order to fit our needs We also used Twilio for the messaging component and domain.com for our domain name!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚧Challenges we ran into
+As with most hackers, we struggled a lot with handling new languages/packages that we were unfamiliar with. For instance, this was our first time using the JSON database, and we ran into several errors when setting up the servers and fetching data from them. Additionally, given that none of us had any experience with back-end programming, we had very limited time to learn how to use them. Additionally, we ran into were dealing with nested routes and sending out HTTP requests. Moreover, half of our members were not familiar with React, and it was a huge challenge trying to learn a new framework under such a short time frame!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✔️Accomplishments that we're proud of
+During this project, our team was exposed to many different packages, databases and languages for the first time! We were incredibly proud of the fact that we were able to learn overcome the seemingly endless flood of errors and create an entire tech stack platform in less than 2 days! Specifically, our team worked with JSON servers and http requests for the first time, and despite the many challenges that we encountered, we managed to make a fully functioning platform! The best part was the fact that we were able to make something that had so many different components to it, subsequently being able to include some ideas from everyone- and we hope that this idea is one that is actually relevant to users!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📚What we learned
+HTTP requests, nested id routes using template literals, json.database, fetching data Throughout this hackathon, we learned a lot about developing a fully functional site, especially learning how to use React, HTTPS requests, nested id routes using template literals, the JSON database and fetching data. Additionally, it was the first time that some of our teammates used Live share, so learning how to collaborate and evenly split tasks was something else that we had to consider!
 
-### `npm run eject`
+## 🔭What's next for PlantUp
+We had many different ideas that we wanted to implement for PlantUp, including a community tab where people can share pictures of their plants, especially as this is something that would likely touch on using the back-end more. Additionally, we would like to increase our catalogue of plants available to all the users, making the app more relevant to others! Finally, we want to create an option for the user to turn all of their daily photos into a montage to show how far they've come.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Backyard-Hacks-3.0
+## 🌐 Best Domain Name from Domain.com
+As a part of our project, we registered iwetmyplants.tech using Domain.com! You can also access it here
